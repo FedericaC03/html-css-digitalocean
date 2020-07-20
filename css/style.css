@@ -1,13 +1,32 @@
-li {
+.list-inline li{
   display: inline;
+  list-style: none;
 }
 .box {
-height: 300px;
-width: 200px;
+height: 200px;
+width: auto;
 background-color: red;
+margin-bottom: 10px;
 }
 
 header {
   height: 500px;
   background-color: lightgrey;
+}
+
+#partners {
+  height: 200px;
+  background-color: lightgreen;
+}
+
+.m_top {
+  margin-top: 50px;
+}
+
+#regions {
+  background-color: lightblue;
+}
+
+#start {
+  background-color: blue;
 }
