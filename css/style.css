@@ -30,3 +30,22 @@ header {
 #start {
   background-color: blue;
 }
+
+.hamburger {
+  display: none;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .hamburger {
+    display: inline-block;
+    text-align: right;
+  }
+  nav {
+    display: none;
+  }
+}
