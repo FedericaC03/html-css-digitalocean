@@ -3,7 +3,7 @@
   list-style: none;
 }
 .box {
-height: 200px;
+height: 100px;
 width: auto;
 background-color: red;
 margin-bottom: 10px;
@@ -48,7 +48,9 @@ header {
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
-
+.arrow {
+  display: none;
+}
 }
 
 @media screen and (max-width: 991px) {
