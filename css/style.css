@@ -321,12 +321,58 @@ header {
 }
 /* /SEZIONE REGIONS */
 
+/* SEZIONE DEVELOPMENT TEAMS */
+#development-teams .carousel {
+  height: 360px;
+  background-color: white;
+}
+#development-teams h2 {
+  font-size: 35px;
+  line-height: 40px;
+  color: #031b4e;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#development-teams .carousel img {
+  margin: 50px 0;
+}
+#development-teams .carousel p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5b6987;
+  text-align: center;
+}
+#development-teams h4 {
+  font-size: 17px;
+  color: #031b4e;
+  font-weight: bold;
+}
+#development-teams h5 {
+  font-size: 15px;
+  color: #031b4e;
+  margin-bottom: 30px;
+}
+#development-teams a {
+  color: #076DFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#development-teams a:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
+#development-teams .fa-circle {
+  margin: 50px 0;
+}
+/*/ SEZIONE DEVELOPMENT TEAMS */
+
 
 #start {
   background-color: blue;
 }
-
-
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
