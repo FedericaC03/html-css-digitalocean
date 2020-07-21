@@ -57,7 +57,6 @@ header {
   background-image:url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -100px;
   height: 470px;
 }
 
@@ -404,6 +403,47 @@ header {
   color: #006aff;
 }
 /* / SEZIONE START */
+/* FOOTER */
+footer {
+  background-color: #010E28;
+  color: #636B7B;
+  height: 500px;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul {
+  padding-left: 20px;
+}
+
+footer ul > li {
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#services a {
+  color: #636B7B;
+  font-size: 15px;
+}
+footer > div {
+  margin-top: 50px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight:bold;
+}
+
+.social i {
+  color: #636B7B;
+  font-size: 25px;
+}
+footer h6 {
+  font-weight: bold;
+  font-size: 15px;
+}
+/*/ FOOTER */
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
