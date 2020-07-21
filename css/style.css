@@ -112,8 +112,10 @@ header {
 .button-google {
   color: grey;
 }
-.fa-google {
-  color:red;
+
+.button-google img {
+  width: 20px;
+  height: auto;
 }
 /* / HEADER BOTTOM */
 /* SEZIONE PARTNERS */
@@ -265,15 +267,60 @@ header {
   text-decoration: none;
 }
 
-/*/ SEZIONE FEATURES */
-
-.m_top {
+ .m_top {
   margin-top: 60px;
 }
 
+/*/ SEZIONE FEATURES */
+
+/* SEZIONE REGIONS */
+
 #regions {
-  background-color: lightblue;
+  background-color: #031b4e;
+  background-image: url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+  height: 450px;
+  color:white;
 }
+#regions h2 {
+  color: white;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#regions ul{
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+
+#regions .new-york {
+  border-bottom: none;
+}
+
+#regions ul::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#regions .city {
+  color: lightgrey;
+  margin-left: 40px;
+}
+.test-speed {
+  float: right;
+}
+.test-speed a{
+  color:#00d7d2;
+}
+.test-speed a:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
+/* /SEZIONE REGIONS */
+
 
 #start {
   background-color: blue;
