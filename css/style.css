@@ -112,6 +112,9 @@ header {
 .button-google {
   color: grey;
 }
+.fa-google {
+  color:red;
+}
 /* / HEADER BOTTOM */
 /* SEZIONE PARTNERS */
 #partners {
@@ -144,6 +147,95 @@ header {
 #partners a:hover {
   color: #465DFE;
 }
+
+/* / SEZIONE PARTNERS */
+/* SEZIONE MANAGEMENT */
+#management h2 {
+  font-size: 35px;
+  line-height: 40px;
+  color: #031b4e;
+  font-weight: bold;
+}
+#management h3 {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #5b6987;
+}
+
+#management li a{
+  font-size: 20px;
+  line-height: 25px;
+  color:rgba(3, 27, 78, 0.6);
+}
+
+#management li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.deploy {
+  margin-top: 50px;
+  border-left: 1px solid lightgrey;
+  padding-left:10px;
+}
+
+.boxes-top {
+  margin-top: 50px;
+}
+#management .boxes-top h3 , #management .boxes-bottom h3  {
+  font-size: 20px;
+  line-height: 20px;
+  color: #031b4e;
+  font-weight: bold;
+}
+#management p {
+ line-height: 25px;
+ color: #5b6987;
+}
+/* / SEZIONE MANAGEMENT */
+
+/* SEZIONE DESIGN */
+#design h2 {
+  font-size: 35px;
+  line-height: 40px;
+  color: #031b4e;
+  font-weight: bold;
+}
+#design p {
+  color: #5b6987;
+  font-size: 20px;
+  margin: 30px 0 50px 0;
+}
+.arrow {
+  font-size: 40px;
+  color: #031b4e;
+  vertical-align: middle;
+  line-height: 360px;
+}
+#design h4 {
+  font-size: 15px;
+  color: #031b4e;
+  font-weight: bold;
+}
+.fa-circle {
+  color: #076DFF;
+  font-size: 12px;
+}
+
+.first-circle {
+  background-color: #076DFF;
+  border-radius: 50%;
+}
+
+#design li {
+  padding: 0;
+}
+/* / SEZIONE DESIGN */
+
+/* SEZIONE FEATURES */
+
+/*/ SEZIONE FEATURES */
+
 .m_top {
   margin-top: 60px;
 }
