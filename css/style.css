@@ -369,10 +369,41 @@ header {
 }
 /*/ SEZIONE DEVELOPMENT TEAMS */
 
-
+/* SEZIONE START */
 #start {
-  background-color: blue;
+  background-color:#0069ff;
+  background-image:url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
 }
+.get-started {
+  margin-top: 80px;
+}
+.get-started h2 {
+  color: white;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.get-started button {
+  color:
+  border:none;
+  padding: 10px;
+  font-size: 16px;
+  color: #006aff;
+  font-weight: bold;
+}
+
+.get-started button:hover {
+  background-color: #CBD4E4;
+  color: #006aff;
+}
+/* / SEZIONE START */
 
 /* RESPONSIVE */
 @media screen and (max-width: 991px) {
