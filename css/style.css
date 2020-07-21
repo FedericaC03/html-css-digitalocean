@@ -44,6 +44,8 @@ header {
 }
 .hamburger {
   display: none;
+  color:#006aff;
+  font-size: 20px;
 }
 
 .btn_signup {
@@ -76,7 +78,7 @@ header {
 .header_bottom .form-contact {
   background-color: white;
   border-radius: 5px;
-  height: 350px;
+  height: 360px;
   margin-top: 70px;
 }
 
@@ -134,11 +136,17 @@ header {
   height: auto;
   margin-bottom: 20px;
 }
-
-#slack , #splunk {
-  margin-top: 10px;
+#partners ul li {
+  vertical-align: middle;
 }
 
+#partners #gitlab {
+  width: 130px;
+  height: auto;
+}
+#partners #wework {
+  padding-bottom: 10px;
+}
 #partners a {
   font-size: 17px;
   font-weight: 400;
@@ -366,6 +374,9 @@ header {
 #development-teams .fa-circle {
   margin: 50px 0;
 }
+#development-teams li {
+  padding: 0;
+}
 /*/ SEZIONE DEVELOPMENT TEAMS */
 
 /* SEZIONE START */
@@ -439,9 +450,16 @@ footer p {
   color: #636B7B;
   font-size: 25px;
 }
+.social i:hover {
+  color:white;
+}
 footer h6 {
   font-weight: bold;
   font-size: 15px;
+}
+#services a:hover {
+  color:white;
+  text-decoration: none;
 }
 /*/ FOOTER */
 
@@ -454,10 +472,104 @@ footer h6 {
   nav {
     display: none;
   }
+  .header_bottom {
+    height: 600px;
+  }
+
+  .header_bottom h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .header_bottom .form-contact {
+    height: 400px;
+  }
+  #partners #gitlab {
+    width:90px;
+    height: auto;
+  }
+  .arrow {
+    line-height: 225px;
+  }
+  #design h4 {
+    margin: 30px 0 80px 0;
+  }
+  #regions {
+    height: 750px;
+  }
+  .new-york {
+    margin-bottom: 30px;
+  }
+  #development-teams .arrow {
+    line-height: 360px;
+  }
+  #development-teams .carousel p {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  #development-teams .list-inline {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  footer {
+    height: 950px;
+  }
+  #services ul{
+    margin: 0;
+    padding:0;
+  }
+  #services div {
+    margin: 0;
+    padding:0;
+  }
+
+  footer .head-list {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
 .arrow {
   display: none;
+}
+.header_bottom {
+  height: 900px;
+}
+#partners {
+  height: 400px;
+}
+#partners img{
+  margin:auto;
+  margin-bottom: 50px;
+}
+#partners #gitlab {
+  width:130px;
+  height: auto;
+}
+#slack {
+  margin-top: 0px;
+}
+#drocker {
+  margin-bottom: 10px;
+}
+.boxes-top {
+  margin-top:10px;
+}
+.padding-0 {
+  padding-left: 0;
+}
+#design .carousel img {
+  width: 70%;
+  margin:auto;
+}
+#features img {
+  margin: 20px 0 30px 0;
+}
+
+#development-teams .list-inline {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+footer {
+  height: 1400px;
 }
 }
