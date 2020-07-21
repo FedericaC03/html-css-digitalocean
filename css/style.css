@@ -1,3 +1,6 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
 .list-inline li{
   display: inline;
   list-style: none;
@@ -8,7 +11,7 @@ width: auto;
 background-color: red;
 margin-bottom: 10px;
 }
-
+/* HEADER TOP  */
 header {
   height: 500px;
   background-color: lightgrey;
@@ -17,20 +20,62 @@ header {
 .header_top {
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 60px;
+  line-height: 60px;
   background-color: white;
   color:black;
   z-index: 1;
   top: 0;
   left: 0;
 }
+
+.header_top .logo img {
+  width: 180px;
+  height: auto;
+  margin-top: 12px;
+}
+
+.menu li a {
+  font-size: 15px;
+  color: hsl(221,93%,16%);
+  text-decoration: none;
+}
+.menu li a:hover {
+  color:#006aff;
+}
+.hamburger {
+  display: none;
+}
+
+.btn_signup {
+  border: 1px solid  #006aff;
+  color: #006aff;
+}
+/* / HEADER TOP */
+/* HEADER BOTTOM  */
+.header_bottom {
+  background-color:#0069ff;
+  background-image:url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.header_bottom h1 {
+  font-size: 62px;
+  line-height: 60px;
+  color: white;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
 #partners {
   height: 200px;
   background-color: lightgreen;
 }
 
 .m_top {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 #regions {
@@ -41,18 +86,9 @@ header {
   background-color: blue;
 }
 
-.hamburger {
-  display: none;
-}
 
 
 /* RESPONSIVE */
-@media screen and (max-width: 768px) {
-.arrow {
-  display: none;
-}
-}
-
 @media screen and (max-width: 991px) {
   .hamburger {
     display: inline-block;
@@ -61,4 +97,10 @@ header {
   nav {
     display: none;
   }
+}
+
+@media screen and (max-width: 768px) {
+.arrow {
+  display: none;
+}
 }
