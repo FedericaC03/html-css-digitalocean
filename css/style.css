@@ -233,6 +233,37 @@ header {
 /* / SEZIONE DESIGN */
 
 /* SEZIONE FEATURES */
+#features {
+  margin-top: 100px;
+}
+
+#features h2 {
+  font-size: 35px;
+  line-height: 40px;
+  color: #031b4e;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#features h3 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #031b4e;
+  font-weight: bold;
+}
+#features p {
+  line-height: 25px;
+  color: #5b6987;
+}
+#features a {
+  color: #076DFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+#features a:hover {
+  color: #1633ff;
+  text-decoration: none;
+}
 
 /*/ SEZIONE FEATURES */
 
