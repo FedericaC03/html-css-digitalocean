@@ -115,14 +115,34 @@ header {
 /* / HEADER BOTTOM */
 /* SEZIONE PARTNERS */
 #partners {
-  height: 300px;
-  background-color: lightgreen;
+  height: 250px;
+  background-color: white;
+}
+#partners h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #5b6987;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 #partners img {
-  vertical-align: middle;
-  width: 100px;
+  width: 150px;
   height: auto;
-  background-color: red;
+  margin-bottom: 20px;
+}
+
+#slack , #splunk {
+  margin-top: 10px;
+}
+
+#partners a {
+  font-size: 17px;
+  font-weight: 400;
+  color: #1633ff;
+  text-decoration: none;
+}
+#partners a:hover {
+  color: #465DFE;
 }
 .m_top {
   margin-top: 60px;
