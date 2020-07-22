@@ -5,12 +5,7 @@
   display: inline;
   list-style: none;
 }
-.box {
-height: 100px;
-width: auto;
-background-color: red;
-margin-bottom: 10px;
-}
+
 /* HEADER TOP  */
 header {
   background-color: lightgrey;
@@ -39,9 +34,11 @@ header {
   color: hsl(221,93%,16%);
   text-decoration: none;
 }
+
 .menu li a:hover {
   color:#006aff;
 }
+
 .hamburger {
   display: none;
   color:#006aff;
@@ -69,6 +66,7 @@ header {
   font-weight: 600;
   margin-top: 100px;
 }
+
 .header_bottom p {
  color:lightgrey;
  font-size: 23px;
@@ -86,18 +84,21 @@ header {
   font-weight: bold;
   padding-top: 40px;
 }
+
 .form-contact p {
   color: #006aff;
   font-weight: bold;
+ }
 
-}
-.form-contact .form-group {
+ .form-contact .form-group {
   width: 90%;
   margin: auto;
 }
+
 .form-contact button {
   width: 90%;
 }
+
 #password {
   margin-top: -10px;
   margin-bottom: 10px;
@@ -114,16 +115,24 @@ header {
   color: grey;
 }
 
+.button-google:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .button-google img {
   width: 20px;
   height: auto;
+  float: left;
 }
 /* / HEADER BOTTOM */
 /* SEZIONE PARTNERS */
 #partners {
   height: 250px;
-  background-color: white;
+  background-color: #F3F5F9;
 }
+
 #partners h2 {
   font-size: 17px;
   font-weight: 400;
@@ -131,11 +140,13 @@ header {
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
 #partners img {
   width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
+
 #partners ul li {
   vertical-align: middle;
 }
@@ -144,17 +155,20 @@ header {
   width: 130px;
   height: auto;
 }
+
 #partners #wework {
   padding-bottom: 10px;
 }
+
 #partners a {
   font-size: 17px;
-  font-weight: 400;
-  color: #1633ff;
+  font-weight: bold;
+  color: #046FFF;
   text-decoration: none;
 }
+
 #partners a:hover {
-  color: #465DFE;
+  color: #5D33FF;
 }
 
 /* / SEZIONE PARTNERS */
@@ -165,6 +179,7 @@ header {
   color: #031b4e;
   font-weight: bold;
 }
+
 #management h3 {
   font-size: 23px;
   line-height: 30px;
@@ -182,21 +197,24 @@ header {
   list-style: none;
   margin-bottom: 20px;
 }
+
 .deploy {
   margin-top: 50px;
-  border-left: 1px solid lightgrey;
+  border-left: 2px solid lightgrey;
   padding-left:10px;
 }
 
 .boxes-top {
   margin-top: 50px;
 }
+
 #management .boxes-top h3 , #management .boxes-bottom h3  {
   font-size: 20px;
   line-height: 20px;
   color: #031b4e;
   font-weight: bold;
 }
+
 #management p {
  line-height: 25px;
  color: #5b6987;
@@ -204,28 +222,43 @@ header {
 /* / SEZIONE MANAGEMENT */
 
 /* SEZIONE DESIGN */
+#design {
+  background-color: #F3F5F9;
+}
 #design h2 {
   font-size: 35px;
   line-height: 40px;
   color: #031b4e;
   font-weight: bold;
 }
+
 #design p {
   color: #5b6987;
   font-size: 20px;
   margin: 30px 0 50px 0;
 }
+
 .arrow {
   font-size: 40px;
   color: #031b4e;
-  vertical-align: middle;
-  line-height: 360px;
+  /* vertical-align: middle;
+  line-height: 360px; */
+  position: relative;
+  height: 426px;
 }
+.arrow i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 #design h4 {
   font-size: 15px;
   color: #031b4e;
   font-weight: bold;
 }
+
 .fa-circle {
   color: #076DFF;
   font-size: 12px;
@@ -260,21 +293,24 @@ header {
   color: #031b4e;
   font-weight: bold;
 }
+
 #features p {
   line-height: 25px;
   color: #5b6987;
 }
+
 #features a {
   color: #076DFF;
   font-size: 16px;
   font-weight: 600;
 }
+
 #features a:hover {
   color: #1633ff;
   text-decoration: none;
 }
 
- .m_top {
+.m_top {
   margin-top: 60px;
 }
 
@@ -288,6 +324,7 @@ header {
   height: 450px;
   color:white;
 }
+
 #regions h2 {
   color: white;
   font-size: 35px;
@@ -316,12 +353,15 @@ header {
   color: lightgrey;
   margin-left: 40px;
 }
+
 .test-speed {
   float: right;
 }
+
 .test-speed a{
   color:#00d7d2;
 }
+
 .test-speed a:hover {
   color: #1633ff;
   text-decoration: none;
@@ -333,6 +373,7 @@ header {
   height: 360px;
   background-color: white;
 }
+
 #development-teams h2 {
   font-size: 35px;
   line-height: 40px;
@@ -345,22 +386,26 @@ header {
 #development-teams .carousel img {
   margin: 50px 0;
 }
+
 #development-teams .carousel p {
   font-size: 20px;
   line-height: 30px;
   color: #5b6987;
   text-align: center;
 }
+
 #development-teams h4 {
   font-size: 17px;
   color: #031b4e;
   font-weight: bold;
 }
+
 #development-teams h5 {
   font-size: 15px;
   color: #031b4e;
   margin-bottom: 30px;
 }
+
 #development-teams a {
   color: #076DFF;
   font-size: 16px;
@@ -371,9 +416,11 @@ header {
   color: #1633ff;
   text-decoration: none;
 }
+
 #development-teams .fa-circle {
   margin: 50px 0;
 }
+
 #development-teams li {
   padding: 0;
 }
@@ -388,9 +435,11 @@ header {
   background-position: center;
   height: 250px;
 }
+
 .get-started {
   margin-top: 80px;
 }
+
 .get-started h2 {
   color: white;
   font-size: 35px;
@@ -416,13 +465,15 @@ header {
 /* / SEZIONE START */
 /* FOOTER */
 footer {
-  background-color: #010E28;
-  color: #636B7B;
+  background-color: #031C4E;
+  color: #8E98AC;
   height: 500px;
 }
+
 footer ul li {
   list-style: none;
 }
+
 footer ul {
   padding-left: 20px;
 }
@@ -432,10 +483,12 @@ footer ul > li {
   font-weight: bold;
   font-size: 20px;
 }
+
 #services a {
-  color: #636B7B;
+  color: #8E98AC;
   font-size: 15px;
 }
+
 footer > div {
   margin-top: 50px;
 }
@@ -447,74 +500,81 @@ footer p {
 }
 
 .social i {
-  color: #636B7B;
+  color: #8E98AC;
   font-size: 25px;
 }
+
 .social i:hover {
   color:white;
 }
+
 footer h6 {
   font-weight: bold;
   font-size: 15px;
+  color: #4A5A7C;
 }
+
 #services a:hover {
   color:white;
   text-decoration: none;
 }
  /* POPUP SQUALO */
- .fumetto {
+.fumetto {
    height: 65px;
    width: 350px;
    background-color: white;
    float: left;
    border-radius: 5px;
    position: relative;
- }
-  .fumetto p{
-    color: #031b4e;
-    padding-left: 10px;
-  }
-  .fumetto i {
-    color:white;
-    position: absolute;
-    right: -3px;
-    bottom: 10px;
-    transform: rotate(90deg);
-    font-size: 28px;
-  }
- .squalo {
-   float: left;
-   margin-left: 20px;
-   position: relative;
-   margin-top: 5px;
- }
- .squalo img {
-   border-radius: 10px;
- }
- .popup:after {
-   content: '';
-   display: table;
-   clear: both;
- }
- .popup {
-   position: fixed;
-   right: 50px;
-   bottom: 30px;
-   z-index: 2;
- }
- .number {
-   position: absolute;
-   top: -25px;
-   right: -7px;
-   color: white;
-   background-color: red;
-   border-radius: 50%;
-   padding: 3px 7px;
-   border: 4px solid white;
- }
+}
+.fumetto p{
+  color: #031b4e;
+  padding-left: 10px;
+}
+.fumetto i {
+  color:white;
+  position: absolute;
+  right: -3px;
+  bottom: 10px;
+  transform: rotate(90deg);
+  font-size: 28px;
+}
+
+.squalo {
+ float: left;
+ margin-left: 20px;
+ position: relative;
+ margin-top: 5px;
+}
+
+.squalo img {
+ border-radius: 10px;
+}
+
+.popup:after {
+ content: '';
+ display: table;
+ clear: both;
+}
+
+.popup {
+ position: fixed;
+ right: 50px;
+ bottom: 30px;
+ z-index: 2;
+}
+
+.number {
+ position: absolute;
+ top: -25px;
+ right: -7px;
+ color: white;
+ background-color: red;
+ border-radius: 50%;
+ padding: 3px 7px;
+ border: 4px solid white;
+}
  /*/ POPUP SQUALO */
-
-
 /*/ FOOTER */
 
 /* RESPONSIVE */
@@ -523,9 +583,11 @@ footer h6 {
     display: inline-block;
     text-align: right;
   }
+
   nav {
     display: none;
   }
+
   .header_bottom {
     height: 600px;
   }
@@ -534,43 +596,55 @@ footer h6 {
     font-size: 36px;
     line-height: 40px;
   }
+
   .header_bottom .form-contact {
     height: 400px;
   }
+
   #partners #gitlab {
     width:90px;
     height: auto;
   }
+
   .arrow {
-    line-height: 225px;
+    height: 225px;
   }
+
   #design h4 {
     margin: 30px 0 80px 0;
   }
+
   #regions {
     height: 750px;
   }
+
   .new-york {
     margin-bottom: 30px;
   }
+
   #development-teams .arrow {
     line-height: 360px;
   }
+
   #development-teams .carousel p {
     font-size: 21px;
     line-height: 30px;
   }
+
   #development-teams .list-inline {
     margin-top: 40px;
     margin-bottom: 30px;
   }
+
   footer {
     height: 950px;
   }
+
   #services ul{
     margin: 0;
     padding:0;
   }
+
   #services div {
     margin: 0;
     padding:0;
@@ -579,42 +653,65 @@ footer h6 {
   footer .head-list {
     margin-top: 20px;
   }
+
+  .popup {
+    left: 10px;
+  }
+
+  .squalo {
+    position: absolute;
+    top: -80px;
+  }
+
+  .fumetto {
+    left: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .arrow {
     display: none;
   }
+
   .header_bottom {
     height: 900px;
   }
+
   #partners {
     height: 400px;
   }
+
   #partners img{
     margin:auto;
     margin-bottom: 50px;
   }
+
   #partners #gitlab {
     width:130px;
     height: auto;
   }
+
   #slack {
     margin-top: 0px;
   }
+
   #drocker {
     margin-bottom: 10px;
   }
+
   .boxes-top {
     margin-top:10px;
   }
+
   .padding-0 {
     padding-left: 0;
   }
+
   #design .carousel img {
     width: 70%;
     margin:auto;
   }
+
   #features img {
     margin: 20px 0 30px 0;
   }
@@ -623,6 +720,7 @@ footer h6 {
     margin-top: 0px;
     margin-bottom: 30px;
   }
+
   footer {
     height: 1400px;
   }
